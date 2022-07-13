@@ -18,6 +18,11 @@ namespace ToDoList.Models
       Items = new List<Item>{};
     }
 
+    public void AddItem(Item item)
+    {
+      Items.Add(item);
+    }
+    
     public static void ClearAll()
     {
       _instances.Clear();
