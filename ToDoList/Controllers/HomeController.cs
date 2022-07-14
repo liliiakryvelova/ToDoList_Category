@@ -13,5 +13,10 @@ namespace ToDoList.Controllers
       return View();
     }
 
+    [Route("/favoritephotos")]
+    public ActionResult FavoritePhotos()
+    {
+      return View();
+    }
   }
 }
